@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const API = axios.create({ baseURL: `http://localhost:5500/` });
-const API = axios.create({ baseURL: `http://localhost:4000/` });
+const API = axios.create({ baseURL: `https://youtube-clone-xkqk.onrender.com/` });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem("Profile")) {
